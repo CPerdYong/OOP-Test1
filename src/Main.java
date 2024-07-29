@@ -17,7 +17,7 @@ public class Main {
         flight2.getSeats().add(seat3);
 
         // Create a passenger
-        Passenger passenger1 = new Passenger("P123", "John Doe", "john.doe@example.com", "019-99998888");
+        Passenger passenger1 = new Passenger("P123", "Cheperd Yong", "cheperdyong65@example.com", "019-99998888");
 
         // Create a reservation
         Reservation reservation1 = passenger1.createReservation(flight1, seat1);
